@@ -1,0 +1,28 @@
+{
+  "name": "kicktheleagueplayer",
+  "version": "1.0.0",
+  "description": "A discord bot. Kicks a user that is playing Leauge of Legends for more that a set amount of time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wist9063/kicktheleagueplayer.git"
+  },
+  "author": "wist9063",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wist9063/kicktheleagueplayer/issues"
+  },
+  "homepage": "https://github.com/Wist9063/kicktheleagueplayer#readme",
+  "devDependencies": {
+    "eslint": "^8.9.0"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "figlet": "^1.5.2",
+    "klaw": "^4.0.1",
+    "moment-timezone": "^0.5.34"
+  }
+}
