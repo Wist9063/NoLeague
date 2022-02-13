@@ -12,9 +12,9 @@ module.exports = class extends BotEvent {
   
   execute() {
     console.log('<---------------->');
-    console.log('Connection to discord initialized. NoLeauge is now initializing! Please wait..');
+    console.log('Connection to discord initialized. NoLeague is now initializing! Please wait..');
     console.log('<---------------->');
-    console.log(figlet.textSync('NoLeauge', {
+    console.log(figlet.textSync('NoLeague', {
       font: 'Slant Relief',
       horizontalLayout: 'default',
       verticalLayout: 'default'
@@ -34,7 +34,7 @@ module.exports = class extends BotEvent {
     };
     console.log('Set game status.');
 
-    console.log('\nWelcome to NoLeauge. Info will be printed below.');
+    console.log('\nWelcome to NoLeague. Info will be printed below.');
     
     console.log('<---------------->');
     console.log(`Guild Size: ${this.guilds.cache.size}\nUser Size: ${this.users.cache.size}\nChannels: ${this.channels.cache.size}\nUsing account: ${this.user.tag}\nLaunched at ${moment(this.readyAt).tz('America/Los_Angeles').format('MMMM Do YYYY, h:mm:ss A')}`);
