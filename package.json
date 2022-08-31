@@ -23,6 +23,6 @@
     "discord.js": "^13.6.0",
     "figlet": "^1.5.2",
     "klaw": "^4.0.1",
-    "moment-timezone": "^0.5.34"
+    "moment-timezone": "^0.5.35"
   }
 }
